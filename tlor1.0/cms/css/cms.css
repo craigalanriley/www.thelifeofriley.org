@@ -1,0 +1,146 @@
+/* TEXT STYLES */
+.txt{font-family: arial, helvetica, sans serif; font-size:12px; color:#000000;}
+.txt_form{font-family: arial, helvetica, sans serif; font-size:12px; color:#000000;}
+.txt_message{font-family: arial, helvetica, sans serif; font-size:12px; text-align:center; color:#000000;}
+
+.txt_level1{font-family: arial, helvetica, sans serif; font-size:12px; color:#000000;}
+.txt_level2{font-family: arial, helvetica, sans serif; font-size:12px; color:#000000;}
+.txt_level3{font-family: arial, helvetica, sans serif; font-size:12px; color:#000000;}
+
+/* LINK STYLES */
+.txt_level1:LINK{font-family: arial, helvetica, sans serif; font-size:12px; color:#000000;}
+.txt_level1:HOVER{font-family: arial, helvetica, sans serif; font-size:12px; color:#CC6600;}
+.txt_level1:VISITED{font-family: arial, helvetica, sans serif; font-size:12px;}
+
+.txt_level2:LINK{font-family: arial, helvetica, sans serif; font-size:12px; color:#000000;}
+.txt_level2:HOVER{font-family: arial, helvetica, sans serif; font-size:12px; color:#CC6600;}
+.txt_level2:VISITED{font-family: arial, helvetica, sans serif; font-size:12px;}
+
+.txt_level3:LINK{font-family: arial, helvetica, sans serif; font-size:12px; color:#000000;}
+.txt_level3:HOVER{font-family: arial, helvetica, sans serif; font-size:12px; color:#CC6600;}
+.txt_level3:VISITED{font-family: arial, helvetica, sans serif; font-size:12px;}
+
+
+.txt_column{font-family: arial, helvetica, sans serif; font-size:10px; color:#FFFFFF; text-decoration:none; text-transform:uppercase;}
+a.txt_column:LINK{font-family: arial, helvetica, sans serif; font-size:10px; color:#FFFFFF; text-decoration:none;}	
+a.txt_column:HOVER{font-family: arial, helvetica, sans serif; font-size:10px; color:#FFFFFF; text-decoration:underline;}	
+a.txt_column:VISITED{font-family: arial, helvetica, sans serif; font-size:10px; color:#FFFFFF;}
+
+.txt_tab{font-family: arial, helvetica, sans serif; font-size:10px; color:#999999; text-transform:uppercase; text-decoration:none; font-weight:bold;}
+a.txt_tab:LINK{font-family: arial, helvetica, sans serif; font-size:10px; color:#FFFFFF; text-transform:uppercase; text-decoration:none;}	
+a.txt_tab:HOVER{font-family: arial, helvetica, sans serif; font-size:10px; color:#FFFFFF; text-transform:uppercase; text-decoration:underline;}	
+a.txt_tab:VISITED{font-family: arial, helvetica, sans serif; font-size:10px; color:#FFFFFF; text-transform:uppercase;}	
+
+.footer{font-family: arial, helvetica, sans serif; font-size:12px; color:#333333; text-decoration:none;}
+a.footer:LINK{font-family: arial, helvetica, sans serif; font-size:12px; color:#333333; text-decoration:none;}	
+a.footer:HOVER{font-family: arial, helvetica, sans serif; font-size:12px; color:#CC6600; text-decoration:underline;}	
+a.footer:VISITED{font-family: arial, helvetica, sans serif; font-size:12px;}
+
+.generic_on{font-family: arial, helvetica, sans serif; font-size:12px; color:#CC6600; text-decoration:none;}
+.generic{font-family: arial, helvetica, sans serif; font-size:12px; color:#333333; text-decoration:none;}
+a.generic:LINK{font-family: arial, helvetica, sans serif; font-size:12px; color:#333333; text-decoration:none;}	
+a.generic:HOVER{font-family: arial, helvetica, sans serif; font-size:12px; color:#CC6600; text-decoration:underline;}	
+a.generic:VISITED{font-family: arial, helvetica, sans serif; font-size:12px;}
+
+.txt_primary_on{font-family: arial, helvetica, sans serif; font-size:12px; color:#CC6600; text-decoration:none; font-weight:bold;}
+.txt_primary{font-family: arial, helvetica, sans serif; font-size:12px; color:#CCCCCC; text-decoration:none; font-weight:bold;}
+a.txt_primary:LINK{font-family: arial, helvetica, sans serif; font-size:12px; color:#CCCCCC; text-decoration:none; font-weight:bold;}	
+a.txt_primary:HOVER{font-family: arial, helvetica, sans serif; font-size:12px; color:#E6B380; text-decoration:none; font-weight:bold;}	
+a.txt_primary:VISITED{font-family: arial, helvetica, sans serif; font-size:12px; text-decoration:none; font-weight:bold;}
+
+/* FORM STYLES */
+
+.frm_txt_small{ border-style: solid; border-width: 1px; border-color:#000000; font-size:10px; width:75; }
+.frm_txt_medium{ border-style: solid; border-width: 1px; border-color:#000000; font-size:10px; width:150; }
+.frm_txt_large{ border-style: solid; border-width: 1px; border-color:#000000; font-size:10px; width:300; }
+.frm_txt_xlarge{ border-style: solid; border-width: 1px; border-color:#000000; font-size:10px; width:400; }
+.frm_txt_date{ border-style: solid; border-width: 1px; border-color:#000000; font-size:10px; width:100; }
+
+.frm_txtarea_summary{ border-style: solid; border-width: 1px; border-color:#000000; font-size:10px; width:400; height:100; }
+.frm_list_select{ border-style: solid; border-width: 1px; border-color:#000000; font-size:10px;}
+.frm_list_multi{ border-style: solid; border-width: 1px; border-color:#000000; font-size:10px;}
+.form_button{ border-style:solid; border-width:1px; border-color:#FFFFFF; background-color:#CC6600; color:#FFFFFF; font-size:10px; }
+.frm_check_box{ }
+.frm_radio_box{ }
+
+/* a class for all Tigra Hints boxes, TD object */
+	.hintsClass
+		{text-align: center; font-family: Verdana, Arial, Helvetica;}
+/* this class is used by Tigra Hints wrappers */
+	.row
+		{background: white;}
+
+
+/*######################################### Calender Drop Down Styles ##########################################*/
+
+td.cal{
+  font-family : Arial,Helvetica,Sans-serif;
+  font-size : 11px;
+  color : #000000;
+  background-color : #CCCCCC;
+}
+select.month{
+  font-family : Arial,Helvetica,Sans-serif;
+  font-size : 11px;
+  color : #000000;
+  width : 85px;
+}
+input.year{
+  font-family : Arial,Helvetica,Sans-serif;
+  font-size : 11px;
+  color : #000000;
+  width : 30px;
+}
+td.calDaysColor {
+  font-family : Arial,Helvetica,Sans-serif;
+  font-size : 11px;
+  color : #ffffff;
+  background-color : #666666;
+}
+td.calWeekend {
+  font-family : Arial,Helvetica,Sans-serif;
+  font-size : 11px;
+  color : #ffffff;
+  background-color : #999999;
+}
+td.calBgColor {
+  font-family : Arial,Helvetica,Sans-serif;
+  font-size : 11px;
+  color : #ffffff;
+  background-color : #d3d3d3;
+}
+.calBorderColor {
+  font-family : Arial,Helvetica,Sans-serif;
+  font-size : 11px;
+  color : #ffffff;
+  background-color : #333333;
+}
+td.calHighlightColor {
+  font-family : Arial,Helvetica,Sans-serif;
+  font-size : 11px;
+  color : #ffffff;
+  background-color : #E6B380;
+}
+A.cal {
+  font-family : Arial,Helvetica,Sans-serif;
+  font-size : 11px;
+  color : #000000;
+  text-decoration : none;
+}  
+A.cal:Hover {
+  font-family : Arial,Helvetica,Sans-serif;
+  font-size : 11px;
+  color : #CC6600;
+  text-decoration : none;
+} 
+.disabled {
+  font-family : Arial,Helvetica,Sans-serif;
+  font-size : 11px;
+  color : #808080;
+  text-decoration : none;
+}  
+  
+
+
+
+

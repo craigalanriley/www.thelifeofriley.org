@@ -1,0 +1,192 @@
+/* general */
+body {
+	scrollbar-face-color: 000000;
+	scrollbar-shadow-color: FFFFFF;
+	scrollbar-3dlight-color: FFFFFF;
+	scrollbar-darkshadow-color: 000000;
+	scrollbar-track-color: 000000;
+	scrollbar-arrow-color: FFFFFF;
+	}
+b {font-weight: bold;}
+
+.txt_white {font-family: arial, helvetica, sans serif; font-size:10px; color:#FFFFFF;}
+.txt_date {font-family: arial, helvetica, sans serif; font-size:12px; color:#660000;}
+.txt_small {font-family: arial, helvetica, sans serif; font-size:10px; color:#000000;}
+.txt_message {font-family: arial, helvetica, sans serif; font-size:12px; color:#FF0000;}	
+.txt_header {font-family: arial, helvetica, sans serif; font-size:14px; color:#000066; font-weight:Bold; text-transform:uppercase;}
+.txt_title {font-family: arial, helvetica, sans serif; font-size:12px; color:#100439; font-weight:Bold;}
+
+.txt_tableheader {font-family: arial, helvetica, sans serif; font-size:11px; color:#FFFFFF;}
+.txt_table {font-family: arial, helvetica, sans serif; font-size:11px; color:#FFFFFF;}
+
+/* hyperlinks */
+a {font-family: arial, helvetica, sans serif; font-size:12px; color:#000000; text-decoration:underline;}
+a:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#0000FF; text-decoration:underline;}	
+a:visited {font-family: arial, helvetica, sans serif; font-size:12px; color:#100439;}
+
+.txt {font-family: arial, helvetica, sans serif; font-size:12px; color:#000000;}
+a.txt {font-family: arial, helvetica, sans serif; font-size:12px; color:#000000; text-decoration:underline;}
+a.txt:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#0000FF; text-decoration:underline;}	
+a.txt:visited {font-family: arial, helvetica, sans serif; font-size:12px; color:#100439;}
+
+.txt_boxtitle {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF; font-weight:Bold; text-decoration:none;}
+a.txt_boxtitle {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF; font-weight:Bold; text-decoration:none;}
+a.txt_boxtitle:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF; font-weight:Bold; text-decoration:none;}
+a.txt_boxtitle:visited {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF; font-weight:Bold; text-decoration:none;}
+
+a.txt_box_more {font-family: arial, helvetica, sans serif; font-size:10px; color:#CCCCCC; text-decoration:none;}
+a.txt_box_more:hover {font-family: arial, helvetica, sans serif; font-size:10px; color:#FFFFFF; text-decoration:none;}	
+a.txt_box_more:visited {font-family: arial, helvetica, sans serif; font-size:10px; color:#CCCCCC;}
+
+.footer {font-family: arial, helvetica, sans serif; font-size:10px; color:#CCCCCC;}
+a.footer {font-family: arial, helvetica, sans serif; font-size:10px; color:#CCCCCC; text-decoration:none;}
+a.footer:hover {font-family: arial, helvetica, sans serif; font-size:10px; color:#FFFFFF; text-decoration:none;}	
+a.footer:visited {font-family: arial, helvetica, sans serif; font-size:10px; color:#FFFFFF;}
+
+/* Section Nav */
+.nav_riley {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF;}
+a.nav_riley {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+a.nav_riley:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#DC1818; text-decoration:none;}
+a.nav_riley_on {font-family: arial, helvetica, sans serif; font-size:12px; color:#DC1818; text-decoration:none; font-weight:Bold;}	
+
+.nav_education {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF;}
+a.nav_education {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+a.nav_education:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#F26100; text-decoration:none;}
+a.nav_education_on {font-family: arial, helvetica, sans serif; font-size:12px; color:#F26100; text-decoration:none; font-weight:Bold;}	
+
+.nav_employment {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF;}
+a.nav_employment {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+a.nav_employment:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#0000B5; text-decoration:none;}
+a.nav_employment_on {font-family: arial, helvetica, sans serif; font-size:12px; color:#0000B5; text-decoration:none; font-weight:Bold;}	
+
+.nav_sport {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF;}
+a.nav_sport {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+a.nav_sport:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#008E00; text-decoration:none;}
+a.nav_sport_on {font-family: arial, helvetica, sans serif; font-size:12px; color:#008E00; text-decoration:none; font-weight:Bold;}	
+
+.nav_travel {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF;}
+a.nav_travel {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+a.nav_travel:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#840084; text-decoration:none;}	
+a.nav_travel_on {font-family: arial, helvetica, sans serif; font-size:12px; color:#840084; text-decoration:none; font-weight:Bold;}
+
+.nav_gallery {font-family: arial, helvetica, sans serif; font-size:12px; color:#999999;}
+a.nav_gallery {font-family: arial, helvetica, sans serif; font-size:12px; color:#999999; text-decoration:none;}
+a.nav_gallery:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF; text-decoration:none;}
+a.nav_gallery_on {font-family: arial, helvetica, sans serif; font-size:12px; color:#FFFFFF; text-decoration:none; font-weight:Bold;}	
+
+.txt_title {font-family: arial, helvetica, sans serif; font-size:12px; color:#100439; text-decoration:none; font-weight:Bold;}
+a.txt_title {font-family: arial, helvetica, sans serif; font-size:12px; color:#100439; text-decoration:none; font-weight:Bold;}
+a.txt_title:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#660000; text-decoration:none; font-weight:Bold;}	
+
+.PageNav {font-family: arial, helvetica, sans serif; font-size:12px; color:#8080DA; font-weight:Bold;}
+a.PageNav {font-family: arial, helvetica, sans serif; font-size:12px; color:#0000B5; text-decoration:none; font-weight:Bold;}
+a.PageNav:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#8080DA; text-decoration:none; font-weight:Bold;}	
+
+.section {font-family: arial, helvetica, sans serif; font-size:10px; color:#990000; font-weight:Bold;}
+a.section {font-family: arial, helvetica, sans serif; font-size:10px; color:#990000; text-decoration:none; font-weight:Bold;}
+a.section:hover {font-family: arial, helvetica, sans serif; font-size:10px; color:#000066; text-decoration:none; font-weight:Bold;}
+
+.more {font-family: arial, helvetica, sans serif; font-size:12px; color:#990000; font-weight:Bold;}
+a.more {font-family: arial, helvetica, sans serif; font-size:12px; color:#990000; text-decoration:none; font-weight:Bold;}
+a.more:hover {font-family: arial, helvetica, sans serif; font-size:12px; color:#000066; text-decoration:none; font-weight:Bold;}	
+
+.bread {font-family: arial, helvetica, sans serif; font-size:10px; color:#630000; text-transform:uppercase;}
+a.bread {font-family: arial, helvetica, sans serif; font-size:10px; color:#000066; text-decoration:none; text-transform:uppercase;}
+a.bread:hover {font-family: arial, helvetica, sans serif; font-size:10px; color:#630000; text-decoration:none; text-transform:uppercase;}	
+
+.SubmitButton {font-family:Arial, Helvetica, sans-serif, ms sans serif; font-size: 80%; font-color: #ffffff; background-color: #000000; color: #FFFFFF; font-weight: 0; border: solid 1px #FFFFFF;}
+
+/* forms */
+.ToolBar {height: 30; width: 500; text-align: center; padding-top: 3; background-color: #eeeeee; border: 1px solid black;}
+.SummaryTextArea {font-family: Arial, Helvetica, sans-serif, "MS sans serif"; font-size: 12px; height: 150; width: 500; background-color: white; padding: 3;border: 1px solid black; overflow=auto;}		
+.ContentTextArea {font-family: Arial, Helvetica, sans-serif, "MS sans serif";	font-size: 12px; height: 250; width: 500; background-color: white; padding: 3; border: 1px solid black; overflow=auto;}
+.Form {border-style: solid; border-width: 1pt; border-color: #666666; font-size:10pt;}
+
+
+/* Article Nav Styles */
+.ArticleNavPages:Link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #d6dce2;
+	padding:3px;
+}
+.ArticleNavPages:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #d6dce2;
+	padding:3px;
+}
+.ArticleNavPages:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #660000;
+	padding:3px;
+}
+
+.ArticleNavPageOn:Link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #d6dce2;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #1B4083;
+	padding:3px;
+}
+.ArticleNavPageOn:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #00CCFF;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #1B4083;
+	padding:3px;
+}
+.ArticleNavPageOn:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #660000;
+	padding:3px;
+}
+
+.ArticleBackNext:Link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #1B4083;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #d6dce2;
+	padding:3px;
+	text-transform:uppercase;
+}
+.ArticleBackNext:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #1B4083;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	padding:3px;
+	text-transform:uppercase;
+}
+.ArticleBackNext:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #660000;
+	padding:3px;
+	text-transform:uppercase;
+}

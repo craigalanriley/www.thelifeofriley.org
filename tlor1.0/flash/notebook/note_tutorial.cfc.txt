@@ -1,0 +1,60 @@
+<cfcomponent>
+
+  <cfset DATASOURCENAME = "Notes">
+	
+  <cffunction access="remote" name="addNote" returntype="struct">
+    <cfargument name="note" type="string" required="true" default="">
+	<cfargument name="title" type="string" required="true" default="">
+    <cfset var rQuery = "">
+	<cfquery name="rQuery" datasource="#DATASOURCENAME#">
+		INSERT INTO Notes (title, noteData) VALUES ('#arguments.title#','#arguments.note#')
+	</cfquery>
+	<cfquery name="rQuery" datasource="#DATASOURCENAME#">
+		Select @@identity AS newId
+	</cfquery>
+    <cfreturn getNote(rQuery.newId)>
+  </cffunction>
+  
+  <cffunction access="remote" name="updateNote" output="false" returntype="struct">
+  	<cfargument name="id" type="numeric" required="true" default="">
+	<cfargument name="note" type="string" required="true" default="">
+	<cfargument name="title" type="string" required="true" default="">
+	<cfset var rQuery = "">
+	<cfquery name="rQuery" datasource="#DATASOURCENAME#">
+		UPDATE Notes set noteData = '#arguments.note#', title = '#arguments.title#'
+		WHERE id = #arguments.id#
+	</cfquery>
+	<cfreturn getNote(arguments.id)>	
+  </cffunction>
+  
+  <cffunction access="remote" name="removeNote" output="false" returntype="numeric">
+  	<cfargument name="id" type="numeric" required="true" default="">
+	<cfquery name="" datasource="#DATASOURCENAME#">
+		DELETE FROM Notes where id = #arguments.id#
+	</cfquery>
+	<cfreturn arguments.id>	
+  </cffunction>
+  
+  <cffunction access="remote" name="getAllNotes" output="false" returntype="query">
+  	<cfset var rQuery = "">
+	<cfquery name="rQuery" datasource="#DATASOURCENAME#">
+		SELECT * from Notes
+	</cfquery>
+	<cfreturn rQuery>
+  </cffunction>
+  
+  <cffunction access="remote" name="getNote" output="false" returntype="struct">
+  	<cfargument name="id" type="numeric" required="true" default="">
+	<cfset var rQuery = "">
+	<cfset var noteStruct = StructNew()>
+	<cfquery name="rQuery" datasource="#DATASOURCENAME#">
+		SELECT * FROM Notes WHERE id = #arguments.id#
+	</cfquery>
+	<cfloop query="rQuery">
+		<cfset noteStruct.id = id />
+		<cfset noteStruct.title = title />
+		<cfset noteStruct.noteData = noteData />
+	</cfloop>
+	<cfreturn noteStruct>
+  </cffunction>
+</cfcomponent>

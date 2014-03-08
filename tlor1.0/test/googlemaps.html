@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Maps JavaScript API Example</title>
+    
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA0DUjqIfawGSVKAvSngLWnRSE8IfrQXvFT8ktuUsagh-45FRLuRRcvC1TNQ8DMp6rpj5tDaGScvUBLg"
+      type="text/javascript"></script>
+      
+    <script type="text/javascript">
+    //<![CDATA[
+http://maps.google.co.uk/maps?f=q&hl=en&geocode=&q=mumbai&sll=4.346411,3.55957&sspn=27.088602,56.25&ie=UTF8&ll=19.03356,73.11676&spn=48.500788,79.101563&z=4
+	function load() 
+		{
+		if (GBrowserIsCompatible()) 
+		
+			var map;
+			var directionsPanel;
+			var directions;
+		
+			{
+			map = new GMap2(document.getElementById("map"));
+			// map = new GMap2(document.getElementById("map_canvas"));
+			
+  			directionsPanel = document.getElementById("my_textual_div");			
+			
+			map.setCenter(new GLatLng(18.062312,73.125), 2);
+			
+			map.setMapType(G_NORMAL_MAP);
+			
+			var mapControl = new GMapTypeControl();
+			map.addControl(new GSmallMapControl ());
+			// Directions
+			directions = new GDirections(map, directionsPanel);
+			directions.load("from: Mumbai, Maharashtra, India to: Goa");
+
+			}
+		}
+
+    //]]>
+    </script>
+  </head>
+  <body onload="load()" onunload="GUnload()">
+  	
+    <div id="map" style="width: 750px; height: 250px; text-align:center; margin:auto"></div>
+  
+  </body>
+</html>
